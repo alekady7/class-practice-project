@@ -1,0 +1,18 @@
+.heading__1,
+.heading__2,
+.heading__3 {
+  display: flex;
+}
+
+.forms {
+  background-color: rgb(77, 152, 209);
+  width: 300px;
+  border: 2px solid rgb(128, 0, 58);
+  align-items: center;
+  margin: auto;
+  padding: 20px 25px;
+}
+
+.user__details {
+  border: 2px solid rgb(214, 6, 131);
+}

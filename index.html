@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="forms">
+      <form action="#">
+        <h1 class="heading">Forms</h1>
+        <div class="user__details">
+          <div class="heading__1">
+            <div class="input__box1">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Full name" required />
+            </div>
+            <div class="input__box2">
+              <span class="details">Username</span>
+              <input type="text" placeholder="abcdefgh" required />
+            </div>
+          </div>
+          <div class="heading__2">
+            <div class="input__box3">
+              <span class="details">Email</span>
+              <input type="email" placeholder="abc@gmail.com" required />
+            </div>
+            <div class="input__box4">
+              <span class="details">Phone Number</span>
+              <input
+                type="tel"
+                pattern="[0-9]{10}"
+                placeholder="0123456789"
+                required
+              />
+            </div>
+          </div>
+          <div class="heading__3">
+            <div class="input__box5">
+              <span class="details">Password</span>
+              <input type="password" placeholder="********" required />
+            </div>
+            <div class="input__box6">
+              <span class="details">Confirm Password</span>
+              <input type="password" placeholder="********" required />
+            </div>
+          </div>
+        </div>
+        <div class="gender__details">
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="male">Female</option>
+            <option value="male">Prefer not to say</option>
+          </select>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
